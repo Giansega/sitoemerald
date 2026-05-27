@@ -1,0 +1,70 @@
+﻿1. Analisi di Font, Colori e Identità Visiva
+Analizzando i tuoi fogli di stile e i richiami esterni, l'identità del brand si poggia su un contrasto netto tra storicità geometrica e leggibilità contemporanea.
+
+I Font Scelti
+Cinzel (per Titoli, Brand Logo e Header): Questa è un'ottima scelta per l'alto di gamma. È un font fortemente ispirato alle iscrizioni romane classiche, con proporzioni geometriche rigide e molto eleganti. Usarlo per il nome "EMERALD" e per i titoli principali dà subito quel senso di storia, solidità e lusso senza tempo.
+
+Montserrat (per Testi, Menu, Sottotitoli e Card): Qui andiamo sul sicuro per quanto riguarda il web moderno. È un font sans-serif pulito, geometrico ed estremamente leggibile. Bilancia perfettamente la classicità del Cinzel, evitando che il sito risulti pesante o "antico". I pesi leggeri (300 e 400) che hai caricato garantiscono un aspetto filiforme e sofisticato nei testi descrittivi.
+
+La Palette Colori e l'Impatto Visivo (dedotta dal codice)
+Anche se il CSS è esterno, la struttura ci dice già come si comporterà la pagina:
+
+Il Nero Assoluto di Sfondo: Avendo impostato una navbar navbar-dark e una struttura che richiama i mockup precedenti, il nero domina la scena. Funziona come il velluto degli astucci dei gioielli: assorbe la luce e fa risaltare le immagini dei prodotti (img/immagine.png, ecc.).
+
+La Linea Dorata (.gold-bar): Posizionata sotto il titolo principale nell'header, rompe la monotonia cromatica. Introduce l'elemento metallico prezioso (l'oro), che dialoga visivamente con il bianco puro del testo.
+
+Il tocco "Smeraldo": Sebbene i testi standard saranno probabilmente bianchi o grigio chiaro per leggibilità (navbar-dark), l'anima del brand emergerà sicuramente nei dettagli di interazione (hover sui link, stati attivi del menu o bagliori del cursore).
+
+2. Descrizione Approfondita del Sito (Struttura e Scopo)
+Il tuo codice rivela una precisa strategia di navigazione ed esposizione. Il sito è strutturato come un percorso emozionale diviso in blocchi netti. Vediamo come funzionano lato utente:
+
+L'Esperienza Utente Passo dopo Passo
+L'Impatto Iniziale (Navbar + Header): L'utente atterra e si trova davanti a un design quasi museale. Non ci sono distrazioni. Il brand "EMERALD BOUTIQUE" è centrato, minimale, sottolineato solo dalla barra dorata. La navbar è pulita, con le quattro pagine essenziali (Home, Collezioni, Chi Siamo, Contatti).
+
+Il Primo Contatto Visivo (Hero Banner Carousel): Subito sotto l'header, usi un carosello Bootstrap con effetto sfumato (carousel-fade). Questa scelta è molto più elegante del classico scorrimento laterale. Le immagini dei gioielli si sovrappongono morbidamente, catturando l'attenzione senza infastidire l'occhio.
+
+Il Focus d'Élite (La Vetrina): Come avevamo concordato, la vetrina con i "Pezzi Esclusivi" arriva subito. Qui usi un carosello con le frecce laterali per mostrare uno alla volta i prodotti di punta (immagine6.jpg, immagine8.jpg, ecc.). È la sezione "emozionale" per eccellenza.
+
+La Navigazione per Categorie (Le Card): Subito dopo aver fatto sognare l'utente con la vetrina, lo porti sulla terraferma con una griglia Bootstrap a 4 colonne (col-sm-6 col-lg-3). Le card dividono il catalogo in modo geometrico e pulito: Anelli, Collane, Bracciali, Orologi. L'uso delle immagini sopra i titoli delle card rende la navigazione totalmente visiva.
+
+Lo Storytelling Avanzato (Gli Info Box Dinamici): Questa è la parte più originale del tuo layout. Invece di mettere del testo statico e noioso, hai diviso la sezione in due grandi blocchi (col-lg-6) chiamati .stondato-box. All'interno di ognuno hai inserito un mini-carosello d'immagini (miniSlide1 e miniSlide2) affiancato (o sopra) a un titolo e una descrizione (Design Italiano e Qualità Certificata). Questo dimostra che vuoi raccontare il valore del brand (la certificazione dei diamanti, la tradizione orafa) continuando a mostrare dettagli macro dei materiali in movimento.
+
+Il Sigillo Finale (Footer): Il footer chiude il cerchio in modo estremamente formale e raffinato: "Emerald Boutique - © 2026 | Eleganza Senza Tempo".
+
+3. Obiettivo e Target (In chiave commerciale)
+A chi si rivolge questa struttura di codice?
+
+Scopo Principale: Creare autorevolezza. Un utente che naviga questo sito non sta cercando l'offerta o lo sconto. Sta cercando un pezzo unico. La struttura serve a posizionare Emerald come una boutique d'alta gamma virtuale, dove il sito fa da catalogo e introduce il cliente all'esclusività del brand.
+
+Target di Riferimento: Clientela premium, amante del Made in Italy e del dettaglio minimale. Persone che apprezzano la pulizia grafica delle interfacce moderne (lo stile quasi "Apple" o "Rolex" per intenderci), dove si dà spazio al respiro visivo (i generosi py-5 e g-4 che hai usato per distanziare i blocchi confermano questa volontà di dare "aria" al layout).
+
+Il codice è solido, ben organizzato con le classi di Bootstrap per essere perfettamente responsive (visibile sia su smartphone che su schermi giganti).
+
+
+
+
+
+/project
+│
+├── index.html
+├── collezioni.html
+├── chi-siamo.html
+├── contatti.html
+│
+├── /css
+│   └── style.css
+│
+├── /script
+│   └── main.js
+│
+├── /img
+│   ├── immagine.png
+│   ├── immagine1.png
+│   ├── immagine2.png
+│   ├── immagine3.png
+│   ├── immagine5.jpg
+│   ├── immagine6.jpg
+│   ├── immagine7.jpg
+│   ├── immagine8.jpg
+│   ├── immagine9.jpg
+│   └── immagine10.jpg

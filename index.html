@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emerald Boutique</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="cursor-light" id="cursorLight"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid px-lg-5">
+
+    <a class="navbar-brand brand-logo" href="index.html">EMERALD</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="collezioni.html">Collezioni</a></li>
+        <li class="nav-item"><a class="nav-link" href="chi-siamo.html">Chi siamo</a></li>
+        <li class="nav-item"><a class="nav-link" href="contatti.html">Contatti</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- HEADER -->
+<header class="container-fluid text-center hero-header">
+  <h1 class="title">EMERALD</h1>
+  <p class="subtitle">BOUTIQUE</p>
+  <div class="gold-bar"></div>
+</header>
+
+<!-- HERO -->
+<section class="hero-banner">
+  <div id="bannerFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="img/immagine.png" class="d-block w-100" alt="gioielli">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/immagine2.png" class="d-block w-100" alt="gioielli">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- VETRINA -->
+<section class="vetrina-container py-5">
+  <div class="container">
+
+    <h2 class="section-title text-center mb-5">Pezzi Esclusivi</h2>
+
+    <div id="vetrinaCarousel" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active text-center">
+          <img src="img/immagine6.jpg" class="showcase-img">
+        </div>
+
+        <div class="carousel-item text-center">
+          <img src="img/immagine8.jpg" class="showcase-img">
+        </div>
+
+        <div class="carousel-item text-center">
+          <img src="img/immagine9.jpg" class="showcase-img">
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#vetrinaCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#vetrinaCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<!-- CARD -->
+<section class="container py-5">
+
+  <div class="row g-4">
+
+    <div class="col-sm-6 col-lg-3">
+      <div class="card custom-card">
+        <img src="img/immagine.png" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Anelli</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-3">
+      <div class="card custom-card">
+        <img src="img/immagine2.png" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Collane</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-3">
+      <div class="card custom-card">
+        <img src="img/immagine3.png" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Bracciali</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-3">
+      <div class="card custom-card">
+        <img src="img/immagine1.png" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Orologi</h5>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- INFO BOX -->
+<section class="container py-5">
+
+  <div class="row g-4">
+
+    <div class="col-lg-6">
+      <div class="stondato-box">
+
+        <div id="miniSlide1" class="carousel slide mini-slider" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/immagine10.jpg">
+            </div>
+            <div class="carousel-item">
+              <img src="img/immagine5.jpg">
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4>Design Italiano</h4>
+          <p>Linee moderne che incontrano la tradizione orafa italiana.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="stondato-box">
+
+        <div id="miniSlide2" class="carousel slide mini-slider" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/immagine7.jpg">
+            </div>
+            <div class="carousel-item">
+              <img src="img/immagine3.png">
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4>Qualità Certificata</h4>
+          <p>Diamanti certificati e lavorazioni artigianali premium.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <h5>Emerald Boutique</h5>
+  <p>© 2026 | Eleganza Senza Tempo</p>
+</footer>
+
+<script src="script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html
